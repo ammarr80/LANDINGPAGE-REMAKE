@@ -17,7 +17,7 @@ export default function Services() {
                 </div>
 
                 <div className="w-[90%] mx-auto">
-                    <div className="grid grid-cols-3 gap-8 justify-center items-center text-white px-4">
+                    <div className="grid grid-cols-3 gap-8 w-full text-white px-4">
                         <div className="bg-cards py-8 min-h-[35dvh] rounded-2xl max-w-[340px] px-7 flex flex-col">
                             <div className="flex items-center justify-between">
                                 <Asterisk strokeWidth={1} size={52}/>
