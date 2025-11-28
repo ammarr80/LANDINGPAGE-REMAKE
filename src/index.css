@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&family=Funnel+Display:wght@300..800&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+:root {
+    --brand: #142F32;
+    --secondary: #E3FFCC;
+    --secondary-rgb: 227, 255, 204;
+    --bg-white: #F5F7F9;
+    --brand-bg: #0C363C;
+    --brand-cards: #143E44;
+    --brand-dark-bg: #0C363C;
+    --brand-accent: #153F45;
+    --brand-bar-color: #1BA67E;
+    --brand-checkbox: #11312F;
+    --bg-black: #0B0F12;
+    --bg-plan: #1F2326;
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-semibold: 600;
+    --font-bold: 700;
+}
+
+.bg-brand {
+    background-color: var(--brand);
+}
+.bg-cards {
+    background-color: var(--brand-cards);
+}
+.bg-secondary {
+    background-color: var(--secondary);
+}
+.bg-white {
+    background-color: var(--bg-white);
+}
+.bg-black {
+    background-color: var(--bg-black);
+}
+.bg-brand-dark {
+    background-color: var(--brand-dark-bg);
+}
+.bg-bars {
+    background-color: var(--brand-bar-color);
+}
+.bg-plans {
+    background-color: var(--bg-plan);
+}
+.bg-accent {
+    background-color: var(--brand-accent);
+}
+.bg-checkbox {
+    background-color: var(--brand-checkbox);
+}
+.text-thin {
+    font-weight: var(--font-regular);
+}
+.text-medium {
+    font-weight: var(--font-medium);
+}
+.text-semibold {
+    font-weight: var(--font-semibold);
+}
+.text-bold {
+    font-weight: var(--font-bold);
+}
+.text-brand {
+    color: var(--brand);
+}
+.text-secondary {
+    color: var(--secondary);
+}
+.text-bright {
+    color: #69DCA3;
+}
+.border-brand {
+    border: 1px solid var(--brand);
+    border-radius: 100%;
+}
+.border-secondary {
+    /* border: 48px solid var(--secondary-rgb); */
+    border: 48px solid rgba(var(--secondary-rgb), 0.1); /* 50% opacity */
+
+}
+body {
+    font-family: "Manrope";
+    background-color: var(--bg-white);
+}
+
