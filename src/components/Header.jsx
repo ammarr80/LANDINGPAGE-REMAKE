@@ -2,12 +2,12 @@ import logo from "../assets/image.png";
 export default function Hero() {
     return (
         <>    
-    <header className="bg-[#F5F7F9] max-w-[90%] mx-auto flex justify-between items-center py-2">
+    <header className="bg-[#F5F7F9] max-w-[80%] py-4 mx-auto flex justify-between items-center py-2">
         <div className="flex gap-4 items-center">
             <a href=""><img src={logo} alt="logo_img" className="w-12 h-12 rounded-full"/></a>
             <a href="" className="text-semibold">Prodmast</a>
         </div>
-        <nav className="gap-8 flex">
+        <nav className="gap-8 flex mr-16">
             <a href="" className="text-medium">Home</a>
             <a href="" className="">About</a>
             <a href="" className="">Services</a>
