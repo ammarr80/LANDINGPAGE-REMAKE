@@ -24,7 +24,7 @@ export default function Main() {
           className="flex justify-between px-12 text-center py-2"
         >
           <div className="flex items-center gap-4 min-h-[15dvh] w-[60px]">
-            <div className="p-3 w-11 h-11 bg-white rounded-full flex items-center1 text-brand border">
+            <div className="p-3 w-11 h-11 bg-white rounded-full flex items-center text-brand border">
               <FontAwesomeIcon
                 icon={faArrowDown}
                 className="rotate-[230deg]"
@@ -117,7 +117,7 @@ export default function Main() {
                 </a>{" "}
               </p>
             </div>
-            <div className="bg-white/90 rounded-3xl px-4 w-[95%] mx-auto">
+            <div className="bg-white/90 rounded-3xl px-4 w-[95%] border border-black/10 ml-2 mx-auto">
               <ProjectsAmount />
             </div>
           </div>
