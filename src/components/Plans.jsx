@@ -1,3 +1,4 @@
+import Checkbox from "../UI/Checkbox";
 // 0B0F12
 export default function Plans() {
     return (
@@ -29,17 +30,17 @@ export default function Plans() {
                                 <div className="border-t-1 flex-grow text-gray-500"></div>
                                 </div>
                                 <ul className="flex flex-col gap-4">
-                                    <li className="text-sm text-white/90">
-                                        Production up to 10,000 units per month
+                                    <li className="text-sm text-white/90 flex items-center gap-1">
+                                      <Checkbox />  Production up to 10,000 units per month
                                     </li>
-                                    <li className="text-sm text-white/90">
-                                        24/7 technical support
+                                    <li className="text-sm text-white/90 flex items-center gap-1">
+                                        <Checkbox /> 24/7 technical support
                                     </li>
-                                    <li className="text-sm text-white/90">
-                                        Access the production dashboard
+                                    <li className="text-sm text-white/90 flex items-center gap-1">
+                                        <Checkbox /> Access the production dashboard
                                     </li>
-                                    <li className="text-sm text-white/90">
-                                        Initial setup guide
+                                    <li className="text-sm text-white/90 flex items-center gap-1">
+                                        <Checkbox /> Initial setup guide
                                     </li>
                                 </ul>
                             </div>
@@ -65,17 +66,17 @@ export default function Plans() {
                                 <div className="border-t-1 flex-grow text-gray-500"></div>
                                 </div>
                                 <ul className="flex flex-col gap-4">
-                                    <li className="text-sm text-white/90">
-                                        Unlimited production units
+                                    <li className="text-sm text-white/90 flex items-center gap-1">
+                                        <Checkbox /> Unlimited production units
                                     </li>
-                                    <li className="text-sm text-white/90">
-                                        Dedicated account manager
+                                    <li className="text-sm text-white/90 flex items-center gap-1">
+                                        <Checkbox /> Dedicated account manager
                                     </li>
-                                    <li className="text-sm text-white/90">
-                                        Tailored manufacturing solutions
+                                    <li className="text-sm text-white/90 flex items-center gap-1">
+                                        <Checkbox /> Tailored manufacturing solutions
                                     </li>
-                                    <li className="text-sm text-white/90">
-                                        Predictive production optimization
+                                    <li className="text-sm text-white/90 flex items-center gap-1">
+                                        <Checkbox /> Predictive production optimization
                                     </li>
                                 </ul>
                             </div>
