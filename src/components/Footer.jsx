@@ -4,6 +4,37 @@ import {
     Facebook,
 } from "lucide-react";
 import img from "../assets/image.png";
+
+const footerLinks = [
+  {
+    title: "Company",
+    links: [
+      "About Us",
+      "Customers",
+      "Newsroom",
+      "Events"
+    ]
+  },
+  {
+    title: "Industries",
+    links: [
+      "Precision Metalforming",
+      "Industrial Manufacturing",
+      "High Tech & electronics",
+      "Aerospace"
+    ]
+  },
+  {
+    title: "Products",
+    links: [
+      "Manufacturing Execution System",
+      "Enterprise Resource Planning",
+      "Quality Management System",
+      "Supply Chain Planning"
+    ]
+  }
+];
+
 export default function Footer() {
     return (
         <>
@@ -19,27 +50,14 @@ export default function Footer() {
                     </div>
                     </div>
                     <div className="flex justify-around">
-                        <div className="flex flex-col gap-2">
-                            <h4 className="text-md font-regular">Company</h4>
-                            <a href="" className="text-white/60 text-sm">About Us</a>
-                            <a href="" className="text-white/60 text-sm">Customers</a>
-                            <a href="" className="text-white/60 text-sm">Newsroom</a>
-                            <a href="" className="text-white/60 text-sm">Events</a>
+                        {footerLinks.map((link) => (
+                            <div className="flex flex-col gap-2">
+                            <h4 className="text-md font-regular">{link.title}</h4>
+                            {link.links.map((link) => (
+                                <a href="" className="text-white/60 text-sm">{link}</a>
+                            ))}
                         </div>
-                        <div className="flex flex-col gap-2">
-                            <h4 className="text-md font-regular">Industries</h4>
-                            <a href="" className="text-white/60 text-sm">Precision Metailforming</a>
-                            <a href="" className="text-white/60 text-sm">Industrial Manufacturing</a>
-                            <a href="" className="text-white/60 text-sm">High Tect & electronics </a>
-                            <a href="" className="text-white/60 text-sm">Aerospace</a>
-                        </div>
-                        <div className="flex flex-col gap-2">
-                            <h4 className="text-md font-regular">Products</h4>
-                            <a href="" className="text-white/60 text-sm">Manufacturing Execution System</a>
-                            <a href="" className="text-white/60 text-sm">Enterprise Resource Plannin</a>
-                            <a href="" className="text-white/60 text-sm">Quality Management System</a>
-                            <a href="" className="text-white/60 text-sm">Supply Chain Planning</a>
-                        </div>
+                        ))}
                         <div className="flex flex-col gap-2">
                             <h4 className="text-md font-regular">Get In Touch</h4>
                             <a href="" className="text-white/80 text-sm underline">hallo@prodmast.com</a>
@@ -72,5 +90,5 @@ export default function Footer() {
                 </div>
             </footer>
         </>
-    )
-}
+    );
+};
