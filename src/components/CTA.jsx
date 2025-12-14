@@ -1,9 +1,9 @@
-import companies  from "../assets/companies.png";
+import companies  from "../assets/companieslogo.png";
 import WorkWithUsBtn from "../UI/WorkWithUsBtn";
 export default function CTA() {
     return (
         <>
-            <section className="bg-white grid grid-cols-2 items-center justify-center">
+            <section className="bg-[#FFFFFF] grid grid-cols-2 items-center justify-center">
                 <div className="flex flex-col gap-8 justify-center max-w-[80%] mx-auto">
                     <h2 className="font-bold max-w-[24ch] text-3xl">Empowering Top Companies with Seamless Integrations</h2>
                     <p className="text-black/60 text-sm max-w-[56ch] text-sm">
