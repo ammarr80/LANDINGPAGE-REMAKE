@@ -5,10 +5,10 @@ import {
 export default function KeyBenefits() {
     return (
         <>
-            <section className="bg-white text-black grid grid-cols-[1.5fr_2fr] min-h-[80dvh]  px-28 items-center">
+            <section className="bg-white text-black grid grid-cols-[1.5fr_2fr] min-h-[95dvh] py-8 px-32 items-center">
                 <div className="bg-slate-200 h-[90%] py-8 flex flex-col justify-center items-center relative rounded-lg">
                     <div className="bg-white min-h-[90%] w-[70%] rounded-lg px-4 py-6 flex flex-col gap-4">
-                        <div className="flex flex-col gap-2">
+                        <div className="flex flex-col gap-1">
                             <h4 className="text-black/40 font-regular text-sm">Total Projects</h4>
                             <div className="flex gap-2">
                                 <h5 className="font-semibold text-sm">1475</h5>
@@ -66,19 +66,19 @@ export default function KeyBenefits() {
                             </div>
                         </div>
                     </div>
-                    <div className="bg-white w-[55%] rounded-3xl absolute bottom-6 right-4 px-4">
+                    <div className="bg-white w-[55%] rounded-4xl border-t-1 border-black/10 absolute bottom-5 right-5 px-4">
                         <ProjectsAmount />
                     </div>
                 </div>
-                <div className="h-[80%] px-12 flex flex-col gap-3">
-                    <div className="flex gap-4 flex-col">
+                <div className="h-[75%] px-12 flex flex-col gap-3">
+                    <div className="flex gap-2 flex-col">
                         <h2 className="font-bold text-3xl">Key Benefits of Our System for Your Business Efficiency</h2>
                         <p className="text-black/50 text-sm font-regular">Our systems boost productivity, cut costs and drive business growth.</p>
                     </div>
                     <ul className="flex flex-col gap-4">
                         <li className="">
                             <div></div>
-                            <div className="flex flex-col gap-2">
+                            <div className="flex flex-col gap-1">
                                 <h3 className="font-bold text-lg">Boosting Quality with Tech</h3>
                                 <p className="text-black/50 text-sm font-regular">
                                     With advanced technology, we help you achieve top product quality.
@@ -88,7 +88,7 @@ export default function KeyBenefits() {
                         </li>
                         <li className="flex flex-col gap-4">
                             <div></div>
-                            <div className="flex flex-col gap-2">
+                            <div className="flex flex-col gap-1">
                                 <h3 className="font-bold text-lg">Optimization Production Process</h3>
                                 <p className="text-black/50 text-sm font-regular">
                                     Boost factory efficiency and productivity with our innovative solutions.
@@ -98,7 +98,7 @@ export default function KeyBenefits() {
                         </li>
                         <li className="flex flex-col gap-4">
                             <div></div>
-                            <div className="flex flex-col gap-2">
+                            <div className="flex flex-col gap-1">
                                 <h3 className="font-bold text-lg">Al-Driven Production</h3>
                                 <p className="text-black/50 text-sm font-regular">
                                     Leverage the power of Al to transform your manufacturing processes,
