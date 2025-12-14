@@ -2,7 +2,7 @@ import logo from "../assets/image.png";
 export default function Hero() {
     return (
         <>    
-    <header className="bg-[#F5F7F9] max-w-[80%] py-4 mx-auto flex justify-between items-center py-2">
+    <header className="bg-[#F5F7F9] max-w-[85%] py-4 mx-auto flex justify-between items-center py-2">
         <div className="flex gap-4 items-center">
             <a href=""><img src={logo} alt="logo_img" className="w-12 h-12 rounded-full"/></a>
             <a href="" className="text-semibold">Prodmast</a>
